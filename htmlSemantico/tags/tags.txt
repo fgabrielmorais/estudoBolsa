@@ -1,0 +1,12 @@
+HTML5 ---> Focado em semântica, significado.
+
+
+header: cabeçalho
+nav: area de navegação
+main: conteúdo principal da página
+section: Agrupa conteúdo relacionado dentro da página, como seções de um artigo.
+article: Representa um conteúdo independente, como uma postagem de blog, artigo de notícia. Ideal para conteúdos que podem ser republicados
+aside: usado para mostrar conteúdo relacionado, como uma barra lateral com links, anúncios ou citaçõe 
+footer: Rodapé.
+figure: Uso de imagem; figcaption: Legenda para aquela imagem 
+details: TIpo o uso para o FAQ

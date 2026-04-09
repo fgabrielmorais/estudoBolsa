@@ -1,12 +1,18 @@
-HTML5 ---> Focado em semântica, significado.
-
+HTML5 ---> Focado em semântica, significado. Ele ajuda browsers e engins interpretarem aquela informação melhor.
+CSS --> Estilo, forma
 
 header: cabeçalho
 nav: area de navegação
 main: conteúdo principal da página
 section: Agrupa conteúdo relacionado dentro da página, como seções de um artigo.
 article: Representa um conteúdo independente, como uma postagem de blog, artigo de notícia. Ideal para conteúdos que podem ser republicados
-aside: usado para mostrar conteúdo relacionado, como uma barra lateral com links, anúncios ou citaçõe 
+aside: usado para mostrar conteúdo relacionado, como uma barra lateral com links, anúncios ou citações. Imagine como um conteúdo complementar 
 footer: Rodapé.
 figure: Uso de imagem; figcaption: Legenda para aquela imagem 
-details: TIpo o uso para o FAQ
+details: TIpo o uso para o FAQ.
+
+
+Algumas outras anotações
+
+--> Dependendo do caso, não é errado utilizar a div. Questões de separação e organização podem ser necessárias o seu uso.
+--> Dentro de uma seção, estabeleça um nível dos títulos de cada tópico.

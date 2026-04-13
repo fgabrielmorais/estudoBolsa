@@ -2,9 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <meta name="description" content="Portal de desenvolvimento e pesquisa de IA de Gabriel Morais - UNICAMP">
+    <meta name="keywords" content="Desenvolvedor, Flutter, Java, IA, Engenharia de Requisitos">
+    <meta name="author" content="Gabriel Morais Felix">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Gabriel Morais | DevHub</title>
 </head>
 <body>
     <header>
@@ -30,20 +34,40 @@
 
     <main>
      <h2>Seja bem-vindo</h2>
-     <p>Site para desenvolvimento prático do que estou aprendendo com HTML Semântico</p>
-    
     <section>
         <h2>Sobre o Desenvolvedor</h2>
         <p>Atualmente estudante de SI na Universidade Estadual de Campinas (UNICAMP). Possuo uma grande paixão pela tecnologia e estou focado em construir soluções eficientes, aprendendo algo novo todos os dias.</p>
+    <p>Atualmente focado em <strong>Engenharia de Requisitos</strong>, utilizando <code>IA</code> para automatizar processos de <em>elicitação</em>.</p>
     </section>
 
     <article>
         <h3>Uso da Inteligência Artificial na Engenharia de Requisitos</h3>       
         <!----Ajuda os buscadores e calendários a entenderem datas e horários-->
-      <p>Publicado em: <time datetime="2026/04/13">13 de abril de 2026</time></p>    </article>
+      <p>Publicado em: <time datetime="2026-04-13">13 de abril de 2026</time></p>    </article>
+
+      <!--Uso da tabela-->
+        <table>
+            <thead>
+               <tr>
+                <th>Etapa</th>
+                <th>Descrição</th>
+                <th>Prazo</th>
+               </tr> 
+            </thead>
+            <tbody>
+               <tr>
+                <td>Elicitação</td>
+                <td>Uso de LLM para entrevistas</td>
+                <td>Maio/2026</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
 
         <figure>
-            <img src="" alt="Imagem representativa do desenvolvimento da IC">
+            <img src="https://conteudize.ai/blog/wp-content/uploads/2024/06/como-criar-prompts-para-geracao-de-imagens-com-ia.webp" alt="Imagem representativa do desenvolvimento da IC">
             <figcaption>Imagem representativa</figcaption>
         </figure>
 
@@ -63,7 +87,42 @@
                 <p>Flutter</p>
             </li>
         </ul>
+
+
+        <details>
+            <summary>Onde eu estudo?</summary>
+            <p>Estudo na Faculdade de Tecnologia (FT) da Unicamp. Localizado em Limeira</p>
+        </details>
+
+    
+        <details>
+            <summary>Qual curso estou fazendo atualmente</summary>
+            <p>Estou cursando Bacharelado em Sistemas de Informação</p>
+        </details>
+
     </aside>
+
+    <section>
+<form action="">
+            <div>
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="usuario_nome" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="usuario_email" required>
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="usuario_msg" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Enviar agora</button>
+        </form>
+    </section>
+
     </main>
         
 

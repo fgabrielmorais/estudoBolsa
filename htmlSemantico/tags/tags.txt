@@ -10,6 +10,9 @@ aside: usado para mostrar conteúdo relacionado, como uma barra lateral com link
 footer: Rodapé.
 figure: Uso de imagem; figcaption: Legenda para aquela imagem 
 details: TIpo o uso para o FAQ.
+strong: Enfatiza algo importante
+mark: Como se fosse um marca texto
+code: trecho de código
 
 
 Algumas outras anotações
